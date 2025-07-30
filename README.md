@@ -17,9 +17,9 @@ GET https://s4neub3op7.execute-api.us-east-1.amazonaws.com/default/getTrackingDe
 
 Response:
 {
-  "trackingNumber": "4112889060",
-  "timestamp": "2025-07-28T14:35:00Z",
-  "description": "Shipment has arrived at the destination facility"
+    "trackingNumber": "4112889060",
+    "timestamp": "2025-04-24T11:02:00+02:00",
+    "description": "Delivered"
 }
 
 Error examples:
