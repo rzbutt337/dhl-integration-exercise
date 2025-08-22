@@ -1,12 +1,11 @@
-# dh-integration-exercise
-Task 1 of DHL coding exercise
+# dhl-integration-exercise
 DHL Shipment Tracking Lambda
 
 This project is a AWS Lambda function that lets you check the latest status of a DHL shipment.
 It uses DHL’s Unified Tracking API and is exposed through API Gateway, so you can call it with a tracking number in the URL.
 
 You can find latest tracking details by replacing the tracking number in this URL:
-https://s4neub3op7.execute-api.us-east-1.amazonaws.com/default/getTrackingDetails?trackingNumber=4112889060
+https://YOURAPIENDPOINT.execute-api.us-east-1.amazonaws.com/default/getTrackingDetails?trackingNumber=4112889060
 and entering it in your browser URL field.
 
 How it works:
